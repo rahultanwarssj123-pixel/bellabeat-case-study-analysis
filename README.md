@@ -1,123 +1,145 @@
-# Bellabeat Case Study Analysis
+# Bellabeat Case Study: Smart Device Usage Analysis
 
-## 1. Business Task
+## Project Overview
 
-Bellabeat aims to understand how users engage with smart fitness devices in order to improve user retention and product engagement.
-The objective of this analysis is to identify behavioral patterns in user activity and provide data-driven recommendations.
-
----
-
-## 2. Data Source
-
-* Fitbit Fitness Tracker Dataset (Kaggle)
-* The dataset includes daily activity records such as:
-
-  * Steps
-  * Calories burned
-  * Distance
-  * Activity intensity levels
-
-*Note: The full raw dataset is not uploaded due to size constraints.*
+This project analyzes smart device usage data to identify user behavior patterns and provide data-driven recommendations to improve engagement and retention for Bellabeat. The analysis focuses on activity levels, usage consistency, and behavioral trends among users.
 
 ---
 
-## 3. Data Preparation & Cleaning
+## Business Objective
 
-* Standardized date formats for consistency
-* Created derived columns:
-
-  * **DayOfWeek**
-  * **DayNumber**
-* Verified dataset for missing and duplicate values
-* Removed or ignored irrelevant/zero-value columns where applicable
-* Prepared structured tables for pivot-based analysis
+The objective of this analysis is to evaluate how users interact with fitness tracking devices and identify opportunities to improve user engagement, consistency, and long-term retention.
 
 ---
 
-## 4. Exploratory Analysis
+## Key Insights
 
-### 4.1 Activity Trends by Day
-
-* Calculated average steps and calories across weekdays
-* Observed variation in activity levels across the week
-* Activity shows a slight increase toward the end of the week
-
----
-
-### 4.2 Activity Level Distribution
-
-Users were categorized into:
-
-* Active
-* Moderately Active
-* Inactive
-
-Findings:
-
-* ~65–70% of users fall into **inactive or moderately active categories**
-* Only a smaller segment qualifies as highly active
+* **~70% of users are not highly active**
+* **77% of users demonstrate moderate consistency**
+* **Only 21% of users are highly consistent (45+ days threshold)**
+* **User engagement exists but lacks consistency required for sustained behavior**
+* **Activity peaks on Saturday (~8,095 steps) and drops on Sunday (~6,586 steps)**
 
 ---
 
-### 4.3 User Consistency Analysis
+## Visual Overview
 
-Users were classified based on frequency of activity:
+### Executive Summary
 
-* High Consistency
-* Moderate Consistency
-* Low Consistency
+<!-- Replace with your executive summary slide image -->
 
-Findings:
-
-* Majority of users show **moderate consistency**
-* Very few users maintain **high consistency**
-* A small segment shows **low engagement**
+![Executive Summary](visuals/executive_summary.png)
 
 ---
 
-## 5. Key Insights
+### Steps vs Calories Relationship
 
-* A significant portion of users are not highly active, indicating **low overall engagement levels**
-* User behavior is **inconsistent**, with limited habit formation
-* Engagement tends to **increase toward weekends**, suggesting behavioral patterns tied to weekly schedules
-* Moderate users represent the **largest opportunity segment** for improvement
+<!-- Replace with your scatter plot image -->
 
----
+![Steps vs Calories Scatter Plot](visuals/calories_vs_steps_scatter_chart.png)
 
-## 6. Business Recommendations
-
-* **Improve engagement of inactive users**
-  Use personalized notifications and reminders to encourage daily activity
-
-* **Increase user consistency**
-  Introduce streak-based features (daily goals, rewards, badges) to promote habit formation
-
-* **Leverage high-engagement periods**
-  Launch challenges or campaigns during weekends to maximize participation
-
-* **Convert moderate users into active users**
-  Target this segment with achievable goals and progress tracking
+**Insight:**
+A **positive but moderate relationship** is observed between steps and calories burned. The dispersion of data points indicates that **steps alone do not fully explain calorie burn**, and other factors such as activity intensity influence the outcome.
 
 ---
 
-## 7. Tools Used
+### Activity Trends by Day
 
-* Google Sheets (Data Cleaning, Pivot Tables, Analysis)
-* Excel (Data Handling and Calculations)
-* GitHub (Project Documentation and Version Control)
+<!-- Replace with your bar chart image -->
 
----
+![Activity by Day](visuals/activity_level_distribution.png)
 
-## 8. Repository Contents
+**Key Observations:**
 
-* `Fitbit data.xlsx` → Cleaned dataset and analysis
-* `Bellabeat Usage Analysis.pdf` → Detailed analysis report
-* `Screenshots` → Charts and visual insights
+* **Saturday shows highest activity (~8,095 steps)**
+* **Sunday shows lowest activity (~6,586 steps)**
+* Indicates a **drop in engagement at the end of the weekend**
 
 ---
 
-## 9. Conclusion
+### User Activity Segmentation
 
-This analysis highlights that user engagement is currently limited by inconsistent behavior and a high proportion of low-activity users.
-By focusing on habit-building features and targeted engagement strategies, Bellabeat can significantly improve user retention and overall product value.
+<!-- Replace with your segmentation chart -->
 
+![User Segmentation](visuals/user_segmentation.png)
+
+**Distribution:**
+
+* Inactive: ~36%
+* Moderately Active: ~33%
+* Highly Active: ~31%
+
+**Insight:**
+A majority of users (**~70%**) are not highly active, indicating an opportunity to improve overall activity levels.
+
+---
+
+### User Consistency Analysis (Core Finding)
+
+<!-- Replace with your consistency chart -->
+
+![User Consistency](visuals/consistency_analysis.png)
+
+**Distribution (45-day threshold):**
+
+* **High Consistency: 21%**
+* **Moderate Consistency: 77%**
+* **Low Consistency: 1%**
+
+**Key Insight:**
+Users are **active but not consistent**, and the **77% moderate segment represents the largest opportunity** for improving long-term engagement.
+
+---
+
+## Dataset
+
+* Source: Fitbit Fitness Tracker Dataset (Kaggle)
+* Sample Size: 30 users
+
+### Limitations
+
+* Dataset is not specific to Bellabeat users
+* Limited sample size
+* Short observation period
+
+---
+
+## Data Preparation
+
+The dataset was cleaned and transformed using Google Sheets:
+
+* Standardized date formats and corrected inconsistencies
+* Removed duplicate records
+* Created derived variables:
+
+  * Activity Level (Inactive, Moderately Active, Highly Active)
+  * Total Active Minutes
+  * User Consistency (based on a **45-day threshold**)
+
+---
+
+## Recommendations
+
+* **Convert moderately engaged users into highly consistent users**
+* Introduce **streak-based rewards and reminders** to reinforce habits
+* Target **low-activity periods (Sundays)** through engagement campaigns
+* Provide **personalized insights** to encourage sustained usage
+
+---
+
+## Tools Used
+
+* Google Sheets (data cleaning and analysis)
+* Canva (presentation and visualization)
+
+---
+
+## Full Presentation
+
+[View Complete Case Study](PASTE_YOUR_LINK_HERE)
+
+---
+
+## Conclusion
+
+The analysis indicates that the primary opportunity for Bellabeat lies in **improving user consistency rather than solely increasing activity levels**. By focusing on **habit formation and sustained engagement**, Bellabeat can significantly enhance user retention and long-term product value.
