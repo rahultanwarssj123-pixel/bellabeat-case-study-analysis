@@ -28,7 +28,7 @@ The objective of this analysis is to evaluate how users interact with fitness tr
 
 <!-- Replace with your executive summary slide image -->
 
-![Executive Summary](visuals/executive_summary.png)
+![Executive Summary](visuals/executive_summary_bellabeat.png)
 
 ---
 
@@ -47,7 +47,7 @@ A **positive but moderate relationship** is observed between steps and calories 
 
 <!-- Replace with your bar chart image -->
 
-![Activity by Day](visuals/activity_level_distribution.png)
+![Activity by Day](visuals/steps_and_calories_week_distribution.png)
 
 **Key Observations:**
 
@@ -61,7 +61,7 @@ A **positive but moderate relationship** is observed between steps and calories 
 
 <!-- Replace with your segmentation chart -->
 
-![User Segmentation](visuals/user_segmentation.png)
+![User Segmentation](visuals/activity_level_distribution.png)
 
 **Distribution:**
 
@@ -78,7 +78,7 @@ A majority of users (**~70%**) are not highly active, indicating an opportunity 
 
 <!-- Replace with your consistency chart -->
 
-![User Consistency](visuals/consistency_analysis.png)
+![User Consistency](visuals/consistency_level_chart.png)
 
 **Distribution (45-day threshold):**
 
@@ -136,7 +136,7 @@ The dataset was cleaned and transformed using Google Sheets:
 
 ## Full Presentation
 
-[View Complete Case Study](PASTE_YOUR_LINK_HERE)
+[View Complete Case Study](analysis/Bellabeat Usage Analysis)
 
 ---
 
