@@ -137,7 +137,7 @@ The dataset was cleaned and transformed using Google Sheets:
 
 ## Full Presentation
 
-[View Complete Case Study](file:///C:/Users/RAHUL/OneDrive/문서/Data%20Analytics%20Projects/Bellabeat%20Capstone/Bellabeat%20Usage%20Anal)
+[View Complete Case Study] at (analysis/Bellabeat Usage Analysis.pdf)
 
 ---
 
