@@ -94,7 +94,6 @@ Users are **active but not consistent**, and the **77% moderate segment represen
 ## Dataset
 
 * Source: Fitbit Fitness Tracker Dataset (Kaggle)
-* Sample Size: 30 users
 
 ### Limitations
 
